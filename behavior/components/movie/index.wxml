@@ -1,0 +1,2 @@
+<!--components/movie/index.wxml-->
+<view>movie:{电影名称:{{ name }},类型：{{ type }}}</view>

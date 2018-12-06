@@ -1,0 +1,2 @@
+<!--components/music/index.wxml-->
+<view>music:{歌曲名称:{{ name }},类型：{{ type }}}</view>

@@ -1,0 +1,3 @@
+<!--pages/index/index.wxml-->
+<f-movie name="无名之辈" type="1" />
+<f-music name="成都" type="2" />

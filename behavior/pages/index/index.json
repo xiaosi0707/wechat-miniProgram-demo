@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "f-movie": "../../components/movie/index",
+    "f-music": "../../components/music/index"
+  }
+}
