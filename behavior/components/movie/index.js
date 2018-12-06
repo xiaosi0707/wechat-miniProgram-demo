@@ -4,7 +4,7 @@ Component({
   /**
    * 组件的属性列表
    */
-  behaviors: [SmallFourBeh], //  继承behavior.js里面的properties
+  behaviors: [SmallFourBeh], //  多继承properties
   properties: {
   }
 })

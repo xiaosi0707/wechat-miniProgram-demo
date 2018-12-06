@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "f-music": "../../components/music/index"
+  }
+}
