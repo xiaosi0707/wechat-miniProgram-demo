@@ -1,0 +1,4 @@
+<!--pages/index/index.wxml 
+第二步：在组件标签上绑定在子组件中自定义的事件“parentReceive”，通过回调函数的形式在父组件中进行逻辑处理
+-->
+<f-music name="成都" type="2" bind:parentReceive="parentCallBack" />

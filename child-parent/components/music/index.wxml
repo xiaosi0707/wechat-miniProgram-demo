@@ -1,0 +1,3 @@
+<!--components/music/index.wxml-->
+<view>music:{歌曲名称:{{ name }},类型：{{ type }}}</view>
+<button bind:tap="onMusic">通知父组件</button>
