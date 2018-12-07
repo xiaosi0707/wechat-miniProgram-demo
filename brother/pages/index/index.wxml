@@ -1,0 +1,6 @@
+<!--pages/index/index.wxml 
+第二步：在组件标签上绑定在子组件music中自定义的事件“parentReceive”，通过回调函数的形式在父组件中进行逻辑处理
+-->
+<f-music bind:parentReceive="parentCallBack" />
+<!-- 第四步：在兄弟组件movie上通过自定义属性的形式进行数据传递 -->
+<f-movie name="{{ name }}" type="{{ type }}"></f-movie>

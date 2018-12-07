@@ -1,0 +1,7 @@
+<!--components/movie/index.wxml
+第五步：在兄弟组件movie组件中进行数据绑定
+-->
+<view>歌曲名称：{{ name }}</view>
+<view>类型：{{ type }}</view>
+
+

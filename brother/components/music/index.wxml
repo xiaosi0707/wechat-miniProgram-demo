@@ -1,0 +1,2 @@
+<!--components/music/index.wxml-->
+<button bind:tap="onMusic">music组件通知它的兄弟组件Movie更新数据</button>
