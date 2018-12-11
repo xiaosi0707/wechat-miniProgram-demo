@@ -1,0 +1,3 @@
+<!--pages/index/index.wxml - WXS引用及使用方法“首字母大写”-->
+<wxs src="../../utils/filter.wxs" module="util" />
+<view>{{ util.firstUpper(str) }}</view>

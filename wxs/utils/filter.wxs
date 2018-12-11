@@ -1,0 +1,9 @@
+// wxs 方法定义 - “首字母大写”
+var firstUpper = function (str) {
+  // wxs逻辑编写
+  return str.substring(0, 1).toUpperCase() + str.substring(1);
+}
+// wxs提供对外接口
+module.exports = {
+  firstUpper: firstUpper
+}
