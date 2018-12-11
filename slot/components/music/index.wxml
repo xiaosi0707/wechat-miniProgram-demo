@@ -1,0 +1,7 @@
+<!--components/music/index.wxml-->
+<view class="my-class">
+  <text>我是标准的</text>
+  <!--下面是slot插槽（占位），用于承载组件引用时提供的子节点-->
+  <slot name="custom1"></slot>
+  <slot name="custom2"></slot>
+</view>

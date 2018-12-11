@@ -1,0 +1,9 @@
+<!--pages/index/index.wxml-->
+<f-music>
+<view slot="custom2">我是定制的内容2</view>
+</f-music>
+<f-music>
+<!-- 下面这部分内容将被放置在组件 <slot> 的位置上 -->
+  <view slot="custom1">我是定制的内容1</view>
+  <view slot="custom2">我是定制的内容2</view>
+</f-music>
