@@ -1,0 +1,4 @@
+<!--pages/index/index.wxml - WXS引用及使用方法“首字母大写”-->
+<button open-type='getUserInfo' bindgetuserinfo='getUserInfo' >
+  {{ btnVal }}
+</button>
